@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewContacts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Contacts"
+        app:layout_constraintTop_toBottomOf="@id/btnAddContact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnConnectKeychain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Connect to Keychain Module"
+        app:layout_constraintTop_toBottomOf="@id/btnViewContacts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnReceivedLocations"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Received Locations"
+        app:layout_constraintTop_toBottomOf="@id/btnConnectKeychain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

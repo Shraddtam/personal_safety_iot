@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="scan_for_devices">Scan for Devices</string>
+    <string name="not_connected">Not connected</string>
+</resources>
